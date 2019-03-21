@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Calculator">
+  <grid id="27dc6" binding="Main" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="438" height="473"/>
+    </constraints>
+    <properties>
+      <background color="-14869221"/>
+      <foreground color="-22481"/>
+    </properties>
+    <border type="empty" title="Pipchuk A.A. Calculator" title-justification="1">
+      <font size="16" style="0"/>
+      <title-color color="-4473925"/>
+    </border>
+    <children>
+      <component id="844a8" class="javax.swing.JButton" binding="multBtn">
+        <constraints>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="x"/>
+        </properties>
+      </component>
+      <component id="d750d" class="javax.swing.JButton" binding="decBtn">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="-"/>
+        </properties>
+      </component>
+      <component id="b7cbb" class="javax.swing.JButton" binding="incBtn">
+        <constraints>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="+"/>
+        </properties>
+      </component>
+      <component id="4a3f4" class="javax.swing.JButton" binding="equBtn">
+        <constraints>
+          <grid row="5" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="="/>
+        </properties>
+      </component>
+      <component id="c1025" class="javax.swing.JButton" binding="threeBtn">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="3"/>
+        </properties>
+      </component>
+      <component id="5ef3" class="javax.swing.JButton" binding="sixBtn">
+        <constraints>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="6"/>
+        </properties>
+      </component>
+      <component id="f762a" class="javax.swing.JButton" binding="nineBtn">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="9"/>
+        </properties>
+      </component>
+      <component id="b4be2" class="javax.swing.JButton" binding="dotBtn">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="."/>
+        </properties>
+      </component>
+      <component id="dffa8" class="javax.swing.JButton" binding="RBracketBtn">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value=")"/>
+        </properties>
+      </component>
+      <component id="c98f3" class="javax.swing.JButton" binding="twoBtn">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="2"/>
+        </properties>
+      </component>
+      <component id="dfb2e" class="javax.swing.JButton" binding="LBracketBtn">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="("/>
+        </properties>
+      </component>
+      <component id="f579e" class="javax.swing.JButton" binding="oneBtn">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="1"/>
+        </properties>
+      </component>
+      <component id="ea7c4" class="javax.swing.JButton" binding="fourBtn">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="4"/>
+        </properties>
+      </component>
+      <component id="7fb98" class="javax.swing.JButton" binding="fiveBtn">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="5"/>
+        </properties>
+      </component>
+      <component id="4a4fd" class="javax.swing.JButton" binding="sevenBtn">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="7"/>
+        </properties>
+      </component>
+      <component id="de4a3" class="javax.swing.JButton" binding="eightBtn">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="8"/>
+        </properties>
+      </component>
+      <component id="495c8" class="javax.swing.JButton" binding="zeroBtn">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="0"/>
+        </properties>
+      </component>
+      <component id="9a108" class="javax.swing.JTextField" binding="textField">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="50"/>
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+        </properties>
+      </component>
+      <component id="43280" class="javax.swing.JButton" binding="divBtn">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="20" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="/"/>
+        </properties>
+      </component>
+      <component id="ee538" class="javax.swing.JButton" binding="delBtn">
+        <constraints>
+          <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="14" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="&lt;="/>
+        </properties>
+      </component>
+      <component id="f738d" class="javax.swing.JButton" binding="cBtn">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <minimum-size width="20" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-6144"/>
+          <font name="Berlin Sans FB" size="16" style="0"/>
+          <foreground color="-16777216"/>
+          <hideActionText value="false"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <text value="C"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <inspectionSuppressions>
+    <suppress inspection="NoLabelFor" id="9a108"/>
+  </inspectionSuppressions>
+</form>
